@@ -80,8 +80,19 @@ func main() {
 }
 */
 
+/*
+// read from hard drive
 func main() {
 	cards := newDeckFromFile("my_cards")
 	cards.print()
 	// cards = newDeckFromFile("my_card")
+}
+*/
+
+// shuffle
+
+func main() {
+	cards := newDeck()
+	cards.shuffle()
+	cards.print()
 }
